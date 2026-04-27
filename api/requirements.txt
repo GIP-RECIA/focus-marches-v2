@@ -17,14 +17,14 @@ anyio==4.13.0
     #   watchfiles
 api-entreprise==31.0.1
     # via focus-marche-v2 (pyproject.toml)
-certifi==2026.2.25
+certifi==2026.4.22
     # via
     #   httpcore
     #   httpx
     #   requests
 charset-normalizer==3.4.7
     # via requests
-click==8.3.2
+click==8.3.3
     # via
     #   rich-toolkit
     #   typer
@@ -33,7 +33,7 @@ dnspython==2.8.0
     # via email-validator
 email-validator==2.3.0
     # via fastapi
-fastapi[standard-no-fastapi-cloud-cli]==0.135.3
+fastapi[standard-no-fastapi-cloud-cli]==0.136.1
     # via focus-marche-v2 (pyproject.toml)
 fastapi-cli[standard-no-fastapi-cloud-cli]==0.0.24
     # via fastapi
@@ -49,7 +49,7 @@ httptools==0.7.1
     # via uvicorn
 httpx==0.28.1
     # via fastapi
-idna==3.11
+idna==3.13
     # via
     #   anyio
     #   email-validator
@@ -76,21 +76,21 @@ mdurl==0.1.2
     # via markdown-it-py
 mypy-extensions==1.1.0
     # via typing-inspect
-packaging==26.0
+packaging==26.2
     # via
     #   mariadb
     #   marshmallow
-pydantic==2.13.0
+pydantic==2.13.3
     # via
     #   fastapi
     #   focus-marche-v2 (pyproject.toml)
     #   pydantic-extra-types
     #   pydantic-settings
-pydantic-core==2.46.0
+pydantic-core==2.46.3
     # via pydantic
 pydantic-extra-types==2.11.2
     # via fastapi
-pydantic-settings==2.13.1
+pydantic-settings==2.14.0
     # via
     #   fastapi
     #   focus-marche-v2 (pyproject.toml)
@@ -106,7 +106,7 @@ pyyaml==6.0.3
     # via uvicorn
 requests==2.33.1
     # via api-entreprise
-rich==14.3.4
+rich==15.0.0
     # via
     #   rich-toolkit
     #   typer
@@ -120,7 +120,7 @@ starlette==1.0.0
     # via fastapi
 typeguard==4.5.1
     # via marshmallow-dataclass
-typer==0.24.1
+typer==0.25.0
     # via
     #   fastapi-cli
     #   focus-marche-v2 (pyproject.toml)
@@ -144,7 +144,7 @@ typing-inspection==0.4.2
     #   pydantic-settings
 urllib3==2.6.3
     # via requests
-uvicorn[standard]==0.42.0
+uvicorn[standard]==0.46.0
     # via
     #   fastapi
     #   fastapi-cli

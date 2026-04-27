@@ -17,14 +17,14 @@ anyio==4.13.0
     #   watchfiles
 api-entreprise==31.0.1
     # via focus-marche-v2 (pyproject.toml)
-certifi==2026.2.25
+certifi==2026.4.22
     # via
     #   httpcore
     #   httpx
     #   requests
 charset-normalizer==3.4.7
     # via requests
-click==8.3.2
+click==8.3.3
     # via
     #   rich-toolkit
     #   typer
@@ -39,9 +39,9 @@ email-validator==2.3.0
     # via fastapi
 factory-boy==3.3.3
     # via focus-marche-v2 (pyproject.toml)
-faker==40.13.0
+faker==40.15.0
     # via factory-boy
-fastapi[standard-no-fastapi-cloud-cli]==0.135.3
+fastapi[standard-no-fastapi-cloud-cli]==0.136.1
     # via focus-marche-v2 (pyproject.toml)
 fastapi-cli[standard-no-fastapi-cloud-cli]==0.0.24
     # via fastapi
@@ -57,7 +57,7 @@ httptools==0.7.1
     # via uvicorn
 httpx==0.28.1
     # via fastapi
-idna==3.11
+idna==3.13
     # via
     #   anyio
     #   email-validator
@@ -69,7 +69,7 @@ iniconfig==2.3.0
     # via pytest
 jinja2==3.1.6
     # via fastapi
-librt==0.8.1
+librt==0.9.0
     # via mypy
 mariadb==1.1.14
     # via focus-marche-v2 (pyproject.toml)
@@ -86,34 +86,34 @@ marshmallow-dataclass==8.7.1
     # via api-entreprise
 mdurl==0.1.2
     # via markdown-it-py
-mypy==1.20.0
+mypy==1.20.2
     # via focus-marche-v2 (pyproject.toml)
 mypy-extensions==1.1.0
     # via
     #   mypy
     #   typing-inspect
-packaging==26.0
+packaging==26.2
     # via
     #   mariadb
     #   marshmallow
     #   pytest
-pathspec==1.0.4
+pathspec==1.1.0
     # via mypy
 pluggy==1.6.0
     # via
     #   pytest
     #   pytest-cov
-pydantic==2.13.0
+pydantic==2.13.3
     # via
     #   fastapi
     #   focus-marche-v2 (pyproject.toml)
     #   pydantic-extra-types
     #   pydantic-settings
-pydantic-core==2.46.0
+pydantic-core==2.46.3
     # via pydantic
 pydantic-extra-types==2.11.2
     # via fastapi
-pydantic-settings==2.13.1
+pydantic-settings==2.14.0
     # via
     #   fastapi
     #   focus-marche-v2 (pyproject.toml)
@@ -143,13 +143,13 @@ requests==2.33.1
     # via
     #   api-entreprise
     #   docker
-rich==14.3.4
+rich==15.0.0
     # via
     #   rich-toolkit
     #   typer
 rich-toolkit==0.19.7
     # via fastapi-cli
-ruff==0.15.10
+ruff==0.15.12
     # via focus-marche-v2 (pyproject.toml)
 shellingham==1.5.4
     # via typer
@@ -161,7 +161,7 @@ testcontainers==4.14.2
     # via focus-marche-v2 (pyproject.toml)
 typeguard==4.5.1
     # via marshmallow-dataclass
-typer==0.24.1
+typer==0.25.0
     # via
     #   fastapi-cli
     #   focus-marche-v2 (pyproject.toml)
@@ -193,7 +193,7 @@ urllib3==2.6.3
     #   requests
     #   testcontainers
     #   types-requests
-uvicorn[standard]==0.42.0
+uvicorn[standard]==0.46.0
     # via
     #   fastapi
     #   fastapi-cli
