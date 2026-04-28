@@ -781,8 +781,9 @@ def infogreffe() -> None:
         structures = {
             structure[0]: structure[1]
             for structure in session.execute(
-                select(Structure.identifiant, Structure.uid)
-                .where(Structure.type_identifiant == "SIRET")
+                select(Structure.identifiant, Structure.uid).where(
+                    Structure.type_identifiant == "SIRET"
+                )
             ).all()
         }
         if len(structures):
